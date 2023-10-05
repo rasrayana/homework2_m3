@@ -1,5 +1,5 @@
 from aiogram import Bot, Dispatcher, types, executor
-from config import token
+from homework.config import token
 from logging import basicConfig, INFO
 
 bot = Bot(token=token)
